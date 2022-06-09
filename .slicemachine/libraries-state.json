@@ -1,0 +1,226 @@
+{
+  "slices": {
+    "components": {
+      "call_to_action": {
+        "library": "slices",
+        "id": "call_to_action",
+        "name": "CallToAction",
+        "description": "CallToAction",
+        "model": {
+          "id": "call_to_action",
+          "type": "SharedSlice",
+          "name": "CallToAction",
+          "description": "CallToAction",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "CallToAction",
+              "primary": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Title",
+                    "placeholder": "This is where it all begins...",
+                    "allowTargetBlank": true,
+                    "single": "heading2"
+                  }
+                },
+                "Body": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Body",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+                  }
+                },
+                "buttonText": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Button Text",
+                    "placeholder": ""
+                  }
+                },
+                "backgroundImage": {
+                  "type": "Image",
+                  "config": {
+                    "label": "Background Image",
+                    "constraint": {},
+                    "thumbnails": []
+                  }
+                }
+              },
+              "items": {},
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "name": "Default",
+            "slice_type": "call_to_action",
+            "items": [],
+            "primary": {
+              "title": [
+                {
+                  "type": "heading2",
+                  "text": "Scale customized ROI",
+                  "spans": []
+                }
+              ],
+              "Body": [
+                {
+                  "type": "paragraph",
+                  "text": "Enim ad velit laboris veniam tempor est excepteur eiusmod incididunt. Tempor velit ad nostrud fugiat laborum eu ad.",
+                  "spans": []
+                }
+              ],
+              "buttonText": "unleash magnetic partnerships",
+              "backgroundImage": {
+                "dimensions": {
+                  "width": 900,
+                  "height": 500
+                },
+                "alt": "Placeholder image",
+                "copyright": null,
+                "url": "https://images.unsplash.com/photo-1586952518485-11b180e92764?w=900&h=500&fit=crop"
+              }
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "js"
+        },
+        "screenshotPaths": {
+          "default": {
+            "path": "C:\\Users\\MMAKROUM\\Desktop\\Code\\Next.js\\test-website-nextdom\\.slicemachine\\assets\\slices\\CallToAction\\default\\preview.png",
+            "width": 800,
+            "height": 131
+          }
+        }
+      },
+      "slice_test": {
+        "library": "slices",
+        "id": "slice_test",
+        "name": "SliceTest",
+        "description": "SliceTest",
+        "model": {
+          "id": "slice_test",
+          "type": "SharedSlice",
+          "name": "SliceTest",
+          "description": "SliceTest",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "SliceTest",
+              "primary": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Title",
+                    "placeholder": "This is where it all begins...",
+                    "allowTargetBlank": true,
+                    "single": "heading1"
+                  }
+                },
+                "description": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "paragraph",
+                    "label": "Description",
+                    "placeholder": "A nice description of your feature"
+                  }
+                },
+                "Test": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Test",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+                  }
+                }
+              },
+              "items": {
+                "myCalendar": {
+                  "type": "Date",
+                  "config": {
+                    "label": "My Calendar",
+                    "placeholder": ""
+                  }
+                }
+              },
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "name": "Default",
+            "slice_type": "slice_test",
+            "items": [
+              {
+                "myCalendar": "2018-01-21"
+              },
+              {
+                "myCalendar": "2017-01-17"
+              },
+              {
+                "myCalendar": "2012-12-29"
+              },
+              {
+                "myCalendar": "2018-12-03"
+              },
+              {
+                "myCalendar": "2018-06-17"
+              }
+            ],
+            "primary": {
+              "title": [
+                {
+                  "type": "heading1",
+                  "text": "Syndicate bleeding-edge technologies",
+                  "spans": []
+                }
+              ],
+              "description": [
+                {
+                  "type": "paragraph",
+                  "text": "Est voluptate minim nostrud cillum et ex tempor. Ut sint aliquip veniam commodo eiusmod do cupidatat officia irure id veniam.",
+                  "spans": []
+                }
+              ],
+              "Test": [
+                {
+                  "type": "paragraph",
+                  "text": "Eiusmod duis nulla ex pariatur ad sint ex cupidatat eiusmod quis. Voluptate laboris ex irure irure laboris consequat deserunt cillum adipisicing anim.",
+                  "spans": []
+                }
+              ]
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "js"
+        },
+        "screenshotPaths": {
+          "default": {
+            "path": "C:\\Users\\MMAKROUM\\Desktop\\Code\\Next.js\\test-website-nextdom\\.slicemachine\\assets\\slices\\SliceTest\\default\\preview.png",
+            "width": 800,
+            "height": 94
+          }
+        }
+      }
+    }
+  }
+}

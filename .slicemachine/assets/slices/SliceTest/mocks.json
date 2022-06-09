@@ -1,0 +1,47 @@
+[
+  {
+    "variation": "default",
+    "name": "Default",
+    "slice_type": "slice_test",
+    "items": [
+      {
+        "myCalendar": "2018-01-21"
+      },
+      {
+        "myCalendar": "2017-01-17"
+      },
+      {
+        "myCalendar": "2012-12-29"
+      },
+      {
+        "myCalendar": "2018-12-03"
+      },
+      {
+        "myCalendar": "2018-06-17"
+      }
+    ],
+    "primary": {
+      "title": [
+        {
+          "type": "heading1",
+          "text": "Syndicate bleeding-edge technologies",
+          "spans": []
+        }
+      ],
+      "description": [
+        {
+          "type": "paragraph",
+          "text": "Est voluptate minim nostrud cillum et ex tempor. Ut sint aliquip veniam commodo eiusmod do cupidatat officia irure id veniam.",
+          "spans": []
+        }
+      ],
+      "Test": [
+        {
+          "type": "paragraph",
+          "text": "Eiusmod duis nulla ex pariatur ad sint ex cupidatat eiusmod quis. Voluptate laboris ex irure irure laboris consequat deserunt cillum adipisicing anim.",
+          "spans": []
+        }
+      ]
+    }
+  }
+]

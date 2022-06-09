@@ -1,0 +1,23 @@
+{
+  "id": "6bd1c964-e7c1-4ca1-9feb-77ae6e9411a8",
+  "uid": "qui-voluptate-quo",
+  "type": "autrepage",
+  "data": {
+    "titre": [
+      {
+        "type": "paragraph",
+        "text": "Ut sunt minim culpa esse consequat. Reprehenderit aliqua commodo consequat id sint. Nisi consectetur cillum tempor quis sit ad nisi duis aliqua mollit reprehenderit id.",
+        "spans": []
+      }
+    ],
+    "img": {
+      "dimensions": {
+        "width": 900,
+        "height": 500
+      },
+      "alt": "Placeholder image",
+      "copyright": null,
+      "url": "https://images.unsplash.com/photo-1596195689404-24d8a8d1c6ea?w=900&h=500&fit=crop"
+    }
+  }
+}
